@@ -1,0 +1,10 @@
+<h1>RICK AND MORTY API REST</h1>
+<section>
+    <div *ngFor=" let personaje of personajes" class="card">
+        <img src="{{personaje.image}}">
+        <h5>Id : {{personaje.id}}</h5>
+        <h5>Nombre : {{personaje.name}}</h5>
+        <h5>Estado : {{personaje.status}}</h5>
+        <h5>Especie : {{personaje.species}}</h5>
+    </div>
+</section>
